@@ -1,0 +1,38 @@
+.main-dashboard {
+  // background-color: rgb(248, 245, 245);
+  background-color: rgb(248, 245, 245);
+  height: 100vh;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  .dashboard {
+    display: flex;
+    justify-content: space-between;
+  }
+  .dashboard-content {
+    background-color: #ffff;
+    width: 20%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    .db1 {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    .db2 {
+      border: 2px solid #c1b5de;
+      border-radius: 5px;
+      background-color: #2c0060;
+      color: white;
+      padding: 4px;
+    }
+    .db3 {
+      padding: 0px 0px 15px 0px;
+    }
+    .db4 {
+      border: 2px solid #c1b5de;
+      border-radius: 5px;
+    }
+  }
+}

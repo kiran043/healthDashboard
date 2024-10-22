@@ -1,0 +1,34 @@
+.table-content {
+  background-color: #ffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .tbl {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+  }
+
+  .tb2 {
+    display: flex;
+    align-items: baseline;
+    border: 2px solid #c1b5de;
+    padding: 1px 4px;
+    background-color: #f0edfa;
+    border-radius: 5px;
+    gap: 5px;
+  }
+}
+
+.table-wrapper {
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: auto;
+  width: 100%;
+  background-color: #ffff;
+  max-width: 75rem;
+}

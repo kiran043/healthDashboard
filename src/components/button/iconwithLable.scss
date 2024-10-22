@@ -1,0 +1,20 @@
+.main-icon {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+
+  border: 2px solid #2c0060;
+  width: max-content;
+  //   border-radius: 10px;
+  padding: 5px;
+  background-color: #2c0060;
+
+  // Conditional active styling
+  &.active {
+    background-color: #ffff;
+    border: 1px solid grey;
+  }
+}
+.white {
+  color: white;
+}
